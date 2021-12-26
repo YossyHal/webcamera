@@ -1,0 +1,25 @@
+{
+    // general
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    // linter
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    // formatter
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    // typehint
+    "python.analysis.typeCheckingMode": "strict",
+    // VS Code
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    // Markdown
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+}
